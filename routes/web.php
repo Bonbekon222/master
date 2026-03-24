@@ -11,4 +11,14 @@ Route::get('/user/{surname}/{name}', ['App\\Http\\Controllers\\UserController', 
 
 Route::get('/user1/{user}', ['App\\Http\\Controllers\\UserController', 'userCity']);
 
-Route::get('/user2/', ['App\\Http\\Controllers\\UserController', 'showBlade'])
+Route::get('/view', ['App\\Http\\Controllers\\PostController', 'showW']);
+
+Route::get('/viewW', ['App\\Http\\Controllers\\PostController', 'showWW']);
+
+Route::get('/viewW1', ['App\\Http\\Controllers\\PostController', 'showW1']);
+
+Route::get('/viewW2', ['App\\Http\\Controllers\\PostController', 'showW2']);
+
+Route::get('/viewW3', ['App\\Http\\Controllers\\PostController', 'showW3']);
+
+Route::get('/viewW4', ['App\\Http\\Controllers\\PostController', 'showW4']);

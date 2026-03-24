@@ -1,7 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 
-class UserController extends Controller
+/* class UserController extends Controller
 {
 
     protected $user;
@@ -53,4 +53,9 @@ class UserController extends Controller
 			return view('test');
 		}
 
-}
+
+        public function showShow(){
+            return 'text';
+        }
+
+} */
